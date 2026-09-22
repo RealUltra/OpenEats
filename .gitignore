@@ -1,0 +1,6 @@
+# Backend
+backend/.venv
+backend/data
+__pycache__
+
+# Frontend
