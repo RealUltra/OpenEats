@@ -17,6 +17,13 @@ python -m venv ./backend/.venv
 `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` 
 before trying to activate the virtual environment. 
 
+### Install the packages
+
+Once you've activated the environment, install the packages into it.
+
+**Linux or macOS:** `python3 -m pip install -r ./backend/requirements.txt`
+
+**Windows:** `python -m pip install -r ./backend/requirements.txt`
 
 ### Run the API
 ```
