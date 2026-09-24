@@ -1,0 +1,633 @@
+[
+  {
+    "type": "Restaurant",
+    "id": "NwYJoaOHusWdiqXpM7mQH",
+    "name": "Starbucks",
+    "description": "Coffeehouse offering handcrafted beverages, breakfast, pastries, and light meals.",
+    "address": "2401 Crossplex Boulevard, Suite 101, Birmingham, AL 35208",
+    "telephone": "+1-205-555-0141",
+    "openingHours": "Mo-Su 05:30-21:00",
+    "hasMenu": {
+      "type": "Menu",
+      "id": "y3aabqM2wloN5t4taCgjo",
+      "hasMenuSection": [
+        {
+          "type": "MenuSection",
+          "id": "q9th4Uh9iO6lHbCEJIVz2",
+          "name": "Picked for you",
+          "description": "",
+          "hasMenuSection": null,
+          "hasMenuItem": [
+            {
+              "type": "MenuItem",
+              "id": "F5hn9s3VD9qzKsLV4z8CW",
+              "name": "Caramel Ribbon Crunch Frappuccino® Blended Beverage",
+              "description": "Buttery caramel syrup blended with coffee, milk and ice, then topped with a layer of dark caramel sauce, whipped cream, caramel drizzle and a crunchy caramel-sugar topping—oh-so-beautifully delicious.",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 5.95,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "qGevRkwnKESbOSAxDkH5V",
+              "name": "Cinnamon Dolce Latte",
+              "description": "We add freshly steamed milk and cinnamon dolce-flavored syrup to our classic espresso, topped with sweetened whipped cream and a cinnamon dolce topping to bring you specialness in a treat.",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 5.65,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "5du8LYmn7xX6hYcKkgbpy",
+              "name": "Mango Dragonfruit Starbucks Refreshers® Beverage",
+              "description": "This tropical-inspired pick-me-up—crafted with a refreshing combination of sweet mango and dragonfruit flavors—is hand-shaken with ice and a scoop of real diced dragonfruit.  Contains caffeine.",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 4.55,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "rBuc78KsaVR6lNWh9xbnS",
+              "name": "Iced Caramel Macchiato",
+              "description": "We combine our rich, full-bodied espresso with vanilla-flavored syrup, milk and ice, then top it off with a caramel drizzle for an oh-so-sweet finish.",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 5.15,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "type": "MenuSection",
+          "id": "uNnQS4IR0rPiB5GBCmmmK",
+          "name": "Hot Coffees",
+          "description": "",
+          "hasMenuSection": null,
+          "hasMenuItem": [
+            {
+              "type": "MenuItem",
+              "id": "dpiVqZkPYGZZNSykGQX7v",
+              "name": "Caffè Latte",
+              "description": "Our dark, rich espresso balanced with steamed milk and a light layer of foam. A perfect milk-forward warm-up.",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 4.25,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "Restaurant",
+    "id": "Rv9MDdp7e0YtwW8sEK7c9",
+    "name": "Dunkin",
+    "description": "Quick-service coffee and baked-goods restaurant serving coffee, donuts, breakfast sandwiches, and snacks.",
+    "address": "300 Commons Drive, Birmingham, AL 35209",
+    "telephone": "+1-205-555-0142",
+    "openingHours": "Mo-Su 05:00-21:00",
+    "hasMenu": {
+      "type": "Menu",
+      "id": "NVa1J629YSTwht3LhOF4k",
+      "hasMenuSection": [
+        {
+          "type": "MenuSection",
+          "id": "pLMzdaqdsKKmJiP7IxYOd",
+          "name": "Espresso Drinks",
+          "description": "",
+          "hasMenuSection": null,
+          "hasMenuItem": [
+            {
+              "type": "MenuItem",
+              "id": "AYdIdKXXtZvNCKVy7Z6a1",
+              "name": "Latte",
+              "description": "Made with warm, frothy milk and blended with our rich espresso, our Latte is the perfect balance of creamy and smooth to get you goin'.",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 5.49,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "B9T5X2c5kLAggFWt69WSU",
+              "name": "Iced Latte",
+              "description": "Made with milk and blended with our rich espresso, our Iced Latte is the perfect balance of cool, creamy and smooth to get you goin'.",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 5.79,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "ZbKdClLt2mV3SYFzlVB9w",
+              "name": "Cappuccino",
+              "description": "Our Cappuccino is a warm cup of blended espresso and frothy, bold deliciousness. Made with beans that are freshly ground, freshly brewed, and then blended with steamed milk. This beverage has a thick layer of creamy foam for your delight",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 5.49,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "JKNySsdg8NkpkpINGmxVw",
+              "name": "Iced Cappuccino",
+              "description": "Our Iced Cappuccino is brewed with freshly ground espresso beans and then blended with milk served over ice for a refreshing cup of frothy and bold deliciousness.",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 5.79,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "Ppv6NgGt0OSd2ufBd65lh",
+              "name": "Macchiato",
+              "description": "Did someone say layers on layers of hand-crafted deliciousness? Made with creamy milk and topped with two shots of espresso, our Macchiato is just what you're looking for.",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 5.99,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "Restaurant",
+    "id": "a5paXVCZYrlZ5SomCQ0iC",
+    "name": "KFC",
+    "description": "Quick-service restaurant specializing in fried chicken, chicken sandwiches, family meals, and sides.",
+    "address": "1800 20th Street, Ensley, Birmingham, AL 35218",
+    "telephone": "+1-205-555-0143",
+    "openingHours": "Mo-Su 10:30-23:00",
+    "hasMenu": {
+      "type": "Menu",
+      "id": "XzBze6p2HQbg7IxiieEvO",
+      "hasMenuSection": [
+        {
+          "type": "MenuSection",
+          "id": "Ohm0gNmrQ05cooD5Xd9I9",
+          "name": "Picked for you",
+          "description": "",
+          "hasMenuSection": null,
+          "hasMenuItem": [
+            {
+              "type": "MenuItem",
+              "id": "AtFhPsdfi7wEARdan9y6P",
+              "name": "12 pc. Family Bucket Meal",
+              "description": "Feeds 5-6. 12 pieces of our freshly prepared World Famous Chicken, available in Original Recipe or Extra Crispy, 3 large sides of your choice, and 6 biscuits.",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 39.59,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "2dfMBMkohbSyWxVr3tCRJ",
+              "name": "3 pc. Chicken Combo",
+              "description": "3 pieces of our freshly prepared chicken, available in Original Recipe or Extra Crispy, a side of your choice, a biscuit, and a medium drink.",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 9.83,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "bZ1mtez09Vq6vTAf5b9p4",
+              "name": "Famous Bowl",
+              "description": "Creamy mashed potatoes, sweet corn, and bite-sized chunks of crispy chicken are layered together then drizzled with home-style gravy and topped with a perfect blend of three shredded cheeses.",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 6.35,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "type": "MenuSection",
+          "id": "OPZzcHua2sOCOlSJNB0xM",
+          "name": "World Famous Buckets",
+          "description": "",
+          "hasMenuSection": null,
+          "hasMenuItem": [
+            {
+              "type": "MenuItem",
+              "id": "8Hc34i1vWjUJKYx3Q8VpO",
+              "name": "8 pc. Chicken",
+              "description": "8 pieces of our freshly prepared chicken, available in Original Recipe or Extra Crispy.",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 20.39,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "type": "MenuSection",
+          "id": "jN8ZTHNxuklrQJ973CNKf",
+          "name": "Big Box Meals",
+          "description": "",
+          "hasMenuSection": null,
+          "hasMenuItem": [
+            {
+              "type": "MenuItem",
+              "id": "BqY9xbTK4vqpo65m3qx74",
+              "name": "Classic Chicken Sandwich Box",
+              "description": "Our Classic Chicken Sandwich (An extra crispy filet with premium pickles, spicy mayo, on a brioche-style bun), 3 sides of your choice, and medium drink of your choice.",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 11.39,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "Restaurant",
+    "id": "vM1EVkRrL86jPb2k8NL0Y",
+    "name": "Burger King",
+    "description": "Quick-service restaurant serving flame-grilled burgers, chicken sandwiches, breakfast, and sides.",
+    "address": "1484 Forestdale Boulevard, Birmingham, AL 35214",
+    "telephone": "+1-205-555-0144",
+    "openingHours": "Mo-Su 06:00-23:00",
+    "hasMenu": {
+      "type": "Menu",
+      "id": "8QxliQ3WB9YGWrefyVhav",
+      "hasMenuSection": [
+        {
+          "type": "MenuSection",
+          "id": "WcFndNLG8svZq0Mcp7Q3P",
+          "name": "Picked for you",
+          "description": "",
+          "hasMenuSection": null,
+          "hasMenuItem": [
+            {
+              "type": "MenuItem",
+              "id": "LGTMlqF52xJqcMGcFIwJX",
+              "name": "Double Whopper Meal",
+              "description": "",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 12.49,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "yV98LTz6LRiO1b58Zhv8G",
+              "name": "Whopper Meal",
+              "description": "",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 11.19,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "s5DxfSG9JGHM0in5BjMEX",
+              "name": "Family Bundle",
+              "description": "Includes 3 Whoppers, 3 Cheeseburgers, 3 Small Fries. No substitutions and not valid on specialty versions.",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 20.0,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "cvmMRgz1XRAQIkPwbIuax",
+              "name": "Bacon King Sandwich Meal",
+              "description": "",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 13.69,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "kp5u9jgk9YNOZfMenpZy8",
+              "name": "Original Chicken Sandwich",
+              "description": "",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 6.89,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "Restaurant",
+    "id": "puaKE1mxG13LjerTx4YBZ",
+    "name": "McDonald's",
+    "description": "Quick-service restaurant serving burgers, chicken, breakfast, beverages, and family meals.",
+    "address": "1309 Forestdale Boulevard, Birmingham, AL 35214",
+    "telephone": "+1-205-555-0145",
+    "openingHours": "Mo-Su 05:00-00:00",
+    "hasMenu": {
+      "type": "Menu",
+      "id": "sRlitGv8hvD7N3M4LO5YQ",
+      "hasMenuSection": [
+        {
+          "type": "MenuSection",
+          "id": "9aul9UnKjfY99UMDqqOPm",
+          "name": "Most Popular",
+          "description": "",
+          "hasMenuSection": null,
+          "hasMenuItem": [
+            {
+              "type": "MenuItem",
+              "id": "Bld2vGpzBzFqhw0lz0MWp",
+              "name": "Big Mac Meal",
+              "description": "",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 9.29,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "Dv5GW7AkK5GWPDf32C9h6",
+              "name": "Double Quarter Pounder with Cheese Meal",
+              "description": "",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 10.19,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "7ges1CGcSrppmYpvviJqw",
+              "name": "10 Piece McNuggets Meal",
+              "description": "",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 8.29,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "MfyIHOcWVRRRimAzEY0y6",
+              "name": "Medium French Fries",
+              "description": "",
+              "suitableForDiet": [
+                "https://schema.org/VeganDiet",
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 3.19,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "wANlT6tcUEv9mXkAmr2SW",
+              "name": "Regular Oreo McFlurry",
+              "description": "",
+              "suitableForDiet": [
+                "https://schema.org/VegetarianDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 4.09,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "Restaurant",
+    "id": "IgwyovuKC9a6NHuvquo0b",
+    "name": "Subway",
+    "description": "Quick-service sandwich restaurant offering made-to-order subs, wraps, salads, and sides.",
+    "address": "4024 Veterans Memorial Drive, Adamsville, AL 35005",
+    "telephone": "+1-205-555-0146",
+    "openingHours": "Mo-Su 09:00-22:00",
+    "hasMenu": {
+      "type": "Menu",
+      "id": "T75DZfhc84gEzITEygF2d",
+      "hasMenuSection": [
+        {
+          "type": "MenuSection",
+          "id": "rE8yY6IWLvd80qOxlwnIf",
+          "name": "Picked for you",
+          "description": "",
+          "hasMenuSection": null,
+          "hasMenuItem": [
+            {
+              "type": "MenuItem",
+              "id": "XtduOM0DnoKLDKUS1cz56",
+              "name": "Italian B.M.T.® Footlong Pro (Double Protein)",
+              "description": "The Italian B.M.T.® sandwich is filled with Genoa salami, spicy pepperoni, and Black Forest Ham. Big. Meaty. Tasty. Get it.",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 12.49,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "Mgy71d5ji3vp4fwYdt73d",
+              "name": "Steak & Cheese Footlong Regular Sub",
+              "description": "Our Steak & Cheese sandwich is where warm, delicious steak gets topped with melty cheesiness. Get crazy with veggies and sauces to make it what you want.",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 9.99,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "PsD6ayeqSQzBBMkGlHdHa",
+              "name": "Tuna Footlong Regular Sub",
+              "description": "You’ll love every bite of our classic tuna sandwich. 100% wild caught tuna blended with creamy mayo then topped with your choice of crisp, fresh veggies. 100% delicious.",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 9.49,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "type": "MenuItem",
+              "id": "yVhxaEvm4ZgYzfp0g6EYK",
+              "name": "Baja Turkey Avocado Footlong Pro (Double Protein)",
+              "description": "Oven-Roasted Turkey, Smashed Avocado, and crisp veggies, topped with Baja Chipotle sauce: this one is all about that bold, smoky and spicy flavor!",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 14.99,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "type": "MenuSection",
+          "id": "U0qBvSaHdHUIrDRuqgkAX",
+          "name": "Sandwiches",
+          "description": "",
+          "hasMenuSection": null,
+          "hasMenuItem": [
+            {
+              "type": "MenuItem",
+              "id": "OFooMqGfAJm4HRVe5dp0W",
+              "name": "Sweet Onion Chicken Teriyaki Footlong Regular Sub",
+              "description": "The Sweet Onion Chicken Teriyaki sub is one sah-weeet sub. It starts with Hearty Multigrain bread, add perfectly cooked grilled chicken strips, marinated in our NEW Sweet Onion Teriyaki Sauce, then pile on the crunch with lettuce, spinach, tomatoes, cucumbers, green peppers, red onions and top with another pass of our NEW Sweet Onion Teriyaki sauce.",
+              "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+              ],
+              "offers": {
+                "type": "Offer",
+                "price": 9.99,
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
