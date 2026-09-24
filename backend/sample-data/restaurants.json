@@ -6,7 +6,6 @@
     "description": "Coffeehouse offering handcrafted beverages, breakfast, pastries, and light meals.",
     "address": "2401 Crossplex Boulevard, Suite 101, Birmingham, AL 35208",
     "telephone": "+1-205-555-0141",
-    "servesCuisine": "Coffee, Cafe, Breakfast",
     "openingHours": "Mo-Su 05:30-21:00",
     "hasMenu": {
       "type": "Menu",
@@ -115,7 +114,6 @@
     "description": "Quick-service coffee and baked-goods restaurant serving coffee, donuts, breakfast sandwiches, and snacks.",
     "address": "300 Commons Drive, Birmingham, AL 35209",
     "telephone": "+1-205-555-0142",
-    "servesCuisine": "Coffee, Donuts, Breakfast",
     "openingHours": "Mo-Su 05:00-21:00",
     "hasMenu": {
       "type": "Menu",
@@ -215,7 +213,6 @@
     "description": "Quick-service restaurant specializing in fried chicken, chicken sandwiches, family meals, and sides.",
     "address": "1800 20th Street, Ensley, Birmingham, AL 35218",
     "telephone": "+1-205-555-0143",
-    "servesCuisine": "Fried Chicken, Fast Food",
     "openingHours": "Mo-Su 10:30-23:00",
     "hasMenu": {
       "type": "Menu",
@@ -333,7 +330,6 @@
     "description": "Quick-service restaurant serving flame-grilled burgers, chicken sandwiches, breakfast, and sides.",
     "address": "1484 Forestdale Boulevard, Birmingham, AL 35214",
     "telephone": "+1-205-555-0144",
-    "servesCuisine": "Burgers, Fast Food",
     "openingHours": "Mo-Su 06:00-23:00",
     "hasMenu": {
       "type": "Menu",
@@ -433,7 +429,6 @@
     "description": "Quick-service restaurant serving burgers, chicken, breakfast, beverages, and family meals.",
     "address": "1309 Forestdale Boulevard, Birmingham, AL 35214",
     "telephone": "+1-205-555-0145",
-    "servesCuisine": "Burgers, Fast Food, Breakfast",
     "openingHours": "Mo-Su 05:00-00:00",
     "hasMenu": {
       "type": "Menu",
@@ -534,7 +529,6 @@
     "description": "Quick-service sandwich restaurant offering made-to-order subs, wraps, salads, and sides.",
     "address": "4024 Veterans Memorial Drive, Adamsville, AL 35005",
     "telephone": "+1-205-555-0146",
-    "servesCuisine": "Sandwiches, Fast Food",
     "openingHours": "Mo-Su 09:00-22:00",
     "hasMenu": {
       "type": "Menu",

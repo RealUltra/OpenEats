@@ -1,16 +1,13 @@
 from pathlib import Path
 
-from dotenv import load_dotenv
-
 from backend.app.services.restaurant_service import RestaurantService
-load_dotenv()
-
-import os
-
 from backend.app.repositories.restaurant_repository import RestaurantRepository
 
-OPENEATS_DATA_DIR = os.getenv("OPENEATS_DATA_DIR", "")
+def get_data_dir() -> Path:
+    data_dir = Path(__file__).resolve().parents[2] / "data"
+    if not data_dir.exists(): data_dir.mkdir()
+    return data_dir
 
 def get_restaurant_service():
-    restaurant_repository = RestaurantRepository(Path(OPENEATS_DATA_DIR) / "restaurants.json")
+    restaurant_repository = RestaurantRepository(get_data_dir() / "restaurants.json")
     return RestaurantService(restaurant_repository)
