@@ -2,5 +2,6 @@
 backend/.venv
 backend/data
 __pycache__
+.env
 
 # Frontend
