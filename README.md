@@ -29,3 +29,14 @@ Once you've activated the environment, install the packages into it.
 ```
 uv run fastapi dev --entrypoint backend.app.main:main
 ```
+
+
+## Testing
+
+To run pytest on this project run:
+
+```
+python -m pytest -q
+```
+
+This automatically runs all tests with temp data that does not affect the orignal
