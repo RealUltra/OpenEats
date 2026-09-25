@@ -54,7 +54,7 @@ To run pytest on this project run:
 
 ```
 cd backend
-python -m pytest -q
+python -m pytest -q -s
 ```
 
 This automatically runs all tests with temp data that does not affect the orignal
