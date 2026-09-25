@@ -29,11 +29,6 @@ Once you've activated the environment, install the packages into it.
 
 **Windows:** `python -m pip install -r ./backend/requirements.txt`
 
-### Environment Variables
-
-- Rename the `.env.example` file to `.env`
-- Update the variables inside the `.env` file if necessary.
-
 ### Sample Data
 
 To use the sample data, rename `backend/sample-data` to `backend/data`.
