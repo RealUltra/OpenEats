@@ -48,8 +48,7 @@ uv run fastapi dev --entrypoint backend.app.main:main
 To run pytest on this project run:
 
 ```
-cd backend
-python -m pytest -q -s
+python -m pytest backend/tests -q -s --tb=short
 ```
 
-This automatically runs all tests with temp data that does not affect the orignal
+This automatically runs all tests with temporary data that does not affect the original.
