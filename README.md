@@ -52,3 +52,10 @@ python -m pytest backend/tests -q -s --tb=short
 ```
 
 This automatically runs all tests with temporary data that does not affect the original.
+
+
+## Endpoints
+
+- /health
+- /restaurants
+- /docs
