@@ -53,6 +53,7 @@ uv run fastapi dev --entrypoint backend.app.main:main
 To run pytest on this project run:
 
 ```
+cd backend
 python -m pytest -q
 ```
 
