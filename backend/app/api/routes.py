@@ -1,4 +1,5 @@
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI, HTTPException
+from json import JSONDecodeError
 
 from backend.app.core.dependencies import get_restaurant_service
 from backend.app.schemas.restaurant import Restaurant
@@ -10,5 +11,14 @@ def create_routes(app: FastAPI):
         return {"status": "ok"}
 
     @app.get("/restaurants", response_model=list[Restaurant])
-    async def list_restaurants(restaurant_service: RestaurantService = Depends(get_restaurant_service),):
-        return restaurant_service.list_restaurants()
+    def list_restaurants():
+        restaurant_service = get_restaurant_service()
+
+        try:
+            return restaurant_service.list_restaurants()
+
+        except JSONDecodeError:
+            raise HTTPException(status_code=500, detail="Restaurant data failed to due to invalid JSON")
+
+        except ValueError:
+            raise HTTPException(status_code=500, detail="Restaurant data failed to follow correct list[Restaurant] schema")
