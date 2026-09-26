@@ -41,3 +41,22 @@ To use the sample data, rename `backend/sample-data` to `backend/data`.
 ```
 uv run fastapi dev --entrypoint backend.app.main:main
 ```
+
+
+## Testing
+
+To run Pytest on this project:
+
+First, testing data must be added to the test/test-data directory, for easy testing copy the backend/sample-data files into test/test-data.
+
+Then run:
+```
+python -m pytest backend/tests -q -s --tb=short
+```
+
+
+## Endpoints
+
+- /health
+- /restaurants
+- /docs

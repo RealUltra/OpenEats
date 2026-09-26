@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 from json import JSONDecodeError
 from pydantic import TypeAdapter, ValidationError
-
+import warnings
 from backend.app.schemas.restaurant import Restaurant
 
 restaurants_list_adapter = TypeAdapter(list[Restaurant])
@@ -13,7 +13,7 @@ class RestaurantRepository:
 
     def __load_restaurants(self) -> list[Restaurant]: 
         if not self.restaurants_file_path.exists():
-            print(f"[WARNING] '${self.restaurants_file_path.absolute()}' does not exist. Defaulting to empty restaurants list.")
+            warnings.warn(f"'{self.restaurants_file_path.absolute()}' does not exist. Defaulting to empty restaurants list.")
             return []
 
         with open(self.restaurants_file_path, "r", encoding="utf-8") as restaurants_file:
