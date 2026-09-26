@@ -45,13 +45,14 @@ uv run fastapi dev --entrypoint backend.app.main:main
 
 ## Testing
 
-To run pytest on this project run:
+To run Pytest on this project:
 
+First, testing data must be added to the test/test-data directory, for easy testing copy the backend/sample-data files into test/test-data.
+
+Then run:
 ```
 python -m pytest backend/tests -q -s --tb=short
 ```
-
-This automatically runs all tests with temporary data that does not affect the original.
 
 
 ## Endpoints
