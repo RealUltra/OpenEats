@@ -4,8 +4,9 @@ from pathlib import Path
 from unittest.mock import patch, mock_open
 from backend.app.repositories.restaurant_repository import RestaurantRepository
 
-def test_repository_handles_missing_file():
-    repo = RestaurantRepository(Path("missing_file.json"))
+def test_repository_handles_missing_file(tmp_path):
+    missing_file = tmp_path / "missing_file.json"
+    repo = RestaurantRepository(missing_file)
     results = repo.get_all_restaurants()
     
     assert results == []

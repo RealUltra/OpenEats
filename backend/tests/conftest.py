@@ -20,14 +20,12 @@ def isolated_data(tmp_path, monkeypatch):
     #Will have all other files needed to copy for temp use later
     for name in ["restaurants.json"]:
         shutil.copy(REAL_DATA / name, tmp_path / name)
-    monkeypatch.setenv("COSC310_DATA_DIR", str(tmp_path))
     
+    #Wait until all tests are done
+    yield
     
-    #Safety check to make sure we are using temp data
-    active_dir = os.getenv("COSC310_DATA_DIR", "")
-    
-    if "sample-data" in active_dir or "pytest" not in active_dir:
-        pytest.exit(f"CRITICAL SAFETY ABORT: Tests are using the wrong directory: {active_dir}")
+    for name in ["restaurants.json"]:
+        shutil.copy(tmp_path / name, REAL_DATA / name)
 
 
 

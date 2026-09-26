@@ -17,4 +17,4 @@ def test_restaurants_endpoint_returns_valid_json(client):
     
     restaurants = adapter.validate_python(data)
     
-    assert len(restaurants) > 0, "Expected at least one restaurant in the test data"
+    assert len(restaurants) > 2, "Expected at least 2 restaurants in the test data"
