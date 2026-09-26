@@ -1,62 +1,126 @@
-# OpenEats
+# Project Name
 
-## Development
+## Team Name
 
-### Current Working Directory
+**Team: OpenDash**
 
-**Make sure to run all of the following commands from the root directory i.e OpenEats.**
+## Python Version
 
-### Create a virtual environment
+This project requires:
+
 ```
-python -m venv ./backend/.venv 
+Python 3.12+
 ```
 
-### Activate the virtual environment
+## Setup
 
-**Linux or macOS:** `source ./backend/.venv/bin/activate`
+Clone the repository:
 
-**Windows:** `./backend/.venv/Scripts/activate`
+```bash
+git clone https://github.com/RealUltra/OpenEats
+cd OpenEats
+```
 
-**Windows (Powershell):** If you're using Powershell on Windows, you must run:
-`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` 
-before trying to activate the virtual environment. 
+## Virtual Environment
 
-### Install the packages
+Create a virtual environment:
 
-Once you've activated the environment, install the packages into it.
+### Linux / macOS
 
-**Linux or macOS:** `python3 -m pip install -r ./backend/requirements.txt`
+```bash
+python3 -m venv backend/.venv
+source backend/.venv/bin/activate
+```
 
-**Windows:** `python -m pip install -r ./backend/requirements.txt`
+### Windows
 
-### Sample Data
+```powershell
+python -m venv backend\.venv
+backend\.venv\Scripts\Activate.ps1
+```
+
+## Install Dependencies
+
+Install the required dependencies:
+
+```bash
+pip install -r backend/requirements.txt
+```
+
+## Sample Data
 
 To use the sample data, rename `backend/sample-data` to `backend/data`.
 
-**Linux/macOS:** `mv backend/sample-data backend/data`
-**Windows (Command Prompt):** `ren backend/sample-data data`
-**Windows (Powershell):** `Rename-Item backend/sample-data backend/data`
+### Linux / macOS
 
-### Run the API
+```bash
+mv backend/sample-data backend/data
 ```
+
+### Windows
+
+```powershell
+Rename-Item backend/sample-data backend/data
+```
+
+## Running the API
+
+Start the application with:
+
+```bash
 uv run fastapi dev --entrypoint backend.app.main:main
 ```
 
+The application will be available at:
 
-## Testing
-
-To run Pytest on this project:
-
-First, testing data must be added to the test/test-data directory, for easy testing copy the backend/sample-data files into test/test-data.
-
-Then run:
 ```
+http://127.0.0.1:8000
+```
+
+## API Endpoints
+
+The API provides the following endpoints:
+
+| Method | Path | Description |
+|---|---|---|
+| GET | `/health` | `Checks if the API is running.` |
+| GET | `/restaurants` | `Lists all the restaurants.` |
+
+## API Documentation
+
+API documentation is available at:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+## Running Tests
+
+Run the test suite from the appropriate project directory:
+
+```bash
 python -m pytest backend/tests -q -s --tb=short
 ```
 
+## Repository Structure
 
-## Endpoints
-
-- /health
-- /restaurants
-- /docs
+```text
+OpenEats/
+├── backend/
+│   ├── app/
+│   │   ├── api/            # API route definitions
+│   │   ├── core/           # Functionality code
+│   │   ├── repositories/   # Data-access logic
+│   │   ├── schemas/        # Pydantic models/schemas
+│   │   ├── services/       # Business logic
+│   │   └── main.py         # Application entry point
+│   ├── data/               # Application data
+│   ├── sample-data/        # Sample application data
+│   ├── scrum/              # Project documents
+│   ├── tests/              # Automated tests
+│   │   └── test-data/      # Test data
+│   └── requirements.txt    # Python dependencies
+├── frontend/
+├── README.md
+└── .gitignore 
+```
