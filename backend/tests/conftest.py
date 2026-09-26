@@ -12,32 +12,30 @@ TEST_DATA = CURRENT_DIR.parent / "tests/test-data"
 #File must be exactly this name to be known as a pytest fixture file.
 
 @pytest.fixture(autouse=True)
-def isolated_data(tmp_path, monkeypatch):
-    
-    target_file = REAL_DATA / "restaurants.json"
-    test_file = TEST_DATA / "restaurants.json"
-    
-    if not target_file.exists():
-        pytest.exit(f"CRITICAL ABORT: Missing required file '{target_file}'. Please add it to the data folder.")
-        
-    if not test_file.exists():
-        pytest.exit(f"CRITICAL ABORT: Missing required test file '{test_file}'. Please create the test-data folder and add restaurants.json.")
-    
-    #Will have all other files needed to copy for temp use later
+def isolated_data(tmp_path):
     files_to_track = ["restaurants.json"]
     
     for name in files_to_track:
-        shutil.copy(REAL_DATA / name, tmp_path / name)
-        
+        test_file = TEST_DATA / name
+        if not test_file.exists():
+            pytest.exit(f"CRITICAL ABORT: Missing required test file '{test_file}'. Please create the test-data folder and add {name}.")
+    
+    #Will have all other files needed to copy for temp use later
+    for name in files_to_track:
+        if (REAL_DATA / name).exists():
+            shutil.copy(REAL_DATA / name, tmp_path / name)
+            
     for name in files_to_track:
         shutil.copy(TEST_DATA / name, REAL_DATA / name)
+        
     #Wait until all tests are done
     yield
     
     for name in files_to_track:
-        shutil.copy(tmp_path / name, REAL_DATA / name)
-
-
+        if (tmp_path / name).exists():
+            shutil.copy(tmp_path / name, REAL_DATA / name)
+        elif (REAL_DATA / name).exists():
+            os.remove(REAL_DATA / name)
 
 @pytest.fixture
 def client():

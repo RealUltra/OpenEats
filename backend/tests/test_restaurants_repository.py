@@ -7,7 +7,10 @@ from backend.app.repositories.restaurant_repository import RestaurantRepository
 def test_repository_handles_missing_file(tmp_path):
     missing_file = tmp_path / "missing_file.json"
     repo = RestaurantRepository(missing_file)
-    results = repo.get_all_restaurants()
+    
+    # Catch the warning and verify it matches the expected text
+    with pytest.warns(UserWarning):
+        results = repo.get_all_restaurants()
     
     assert results == []
 
