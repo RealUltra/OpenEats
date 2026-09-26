@@ -2,7 +2,7 @@
 
 ## Part 1 — Team Information
 
-**Team Name:** OpenEats
+**Team Name:** OpenDash
 
 **Team Members:**
 
