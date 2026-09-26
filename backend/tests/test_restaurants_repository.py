@@ -48,3 +48,15 @@ def test_repository_rejects_invalid_schema(mock_exists):
         
         with pytest.raises(ValueError):
             repo.get_all_restaurants()
+            
+            
+def test_repository_loads_real_data():
+    from backend.tests.conftest import REAL_DATA
+    real_data_path = REAL_DATA / "restaurants.json"
+    
+    repo = RestaurantRepository(real_data_path)
+    results = repo.get_all_restaurants()
+    
+    assert len(results) >= 2
+    assert results[0].name is not None
+    assert results[0].id is not None
